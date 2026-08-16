@@ -117,12 +117,13 @@ modules:
       - -DCMAKE_INSTALL_LIBDIR=lib
       - -DMOCKTAIL_DEFAULT_COMPATIBILITY_MANIFEST=/app/share/mocktail/metadata/roblox_compatibility.json
       - -DMOCKTAIL_DEFAULT_SIGNING_TRUST_MANIFEST=/app/share/mocktail/metadata/roblox_signing_certificates.json
+      - -DMOCKTAIL_BUILD_FREEBSD_SOCKET_HELPER=OFF
       - -DBUILD_TESTING=OFF
     sources:
       - type: git
         url: https://github.com/komaruworld/mocktail.git
-        tag: 1.0.2
-        commit: 9bdd737d102e0a265a5b13d8cee4351e06998ccc
+        tag: 1.0.3
+        commit: 9cedf389a769d90daad8ea1350193851ffa43323
         x-checker-data:
           type: git
           is-main-source: true
