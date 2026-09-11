@@ -122,8 +122,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/komaruworld/mocktail.git
-        tag: 1.0.3
-        commit: 9cedf389a769d90daad8ea1350193851ffa43323
+        tag: 1.0.4
+        commit: c5230485182e1b72ae336e32497f8893c64c00f7
         x-checker-data:
           type: git
           is-main-source: true
